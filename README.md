@@ -6,8 +6,8 @@ This is set of WIP Red Hat CloudForms/ManageIQ to add disks to VMware VMs & AWS 
 To use: 
 
 1. Clone this repo.
-2. Import the add_disk_data.zip as a new automation domain (Automate -> Import/Export -> browse & upload file)
-3. Import the dialogs XML file (Automate -> Customization -> Import/Export -> Service Dialog Import/Export -> browse & upload file)
+2. Import the add_disk_catalog.zip as a new automation domain (Automate -> Import/Export -> browse & upload file)
+3. Import the cf_add_disk_dialogs.yml file (Automate -> Customization -> Import/Export -> Service Dialog Import/Export -> browse & upload file)
 4. Create new buttons:
 -- "vSphere Add Disk" which makes a "disk_add" request and uses the vsphere-vm-disk-add dialog
 -- "EC2 Add Disk" which makes a "aws_disk_add" request and also uses the vpshere-vm-disk-add dialog (really, it's just collecting a size - may spint his off into a new dialog & add an AWS mount point later
