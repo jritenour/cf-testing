@@ -5,7 +5,7 @@
 #
 attributes = $evm.root.attributes
 vmname=attributes['dialog_get_vms']
-vm=$evm.vmdb('vm').find_by_name(vmname)
+vm= $evm.vmdb('vm').find_by_name(vmname) || $evm.root['vm']
 raise "Missing $evm.root['vm'] object" unless vm
 
 # Get the size for the new disk from the root object

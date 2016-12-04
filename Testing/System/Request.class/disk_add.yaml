@@ -9,4 +9,4 @@ object:
     description: 
   fields:
   - rel1:
-      value: "/Testing/Integration/VMware/VimApi/VMware_HotAdd_Disk"
+      value: "/Testing/Integration/VMware/VimApi/add_disk_catalog"

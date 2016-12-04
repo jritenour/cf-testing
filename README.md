@@ -1,6 +1,6 @@
 # cf-testing
 
-This is set of WIP Red Hat CloudForms/ManageIQ to add disks to VMware VMs & AWS intances via custom buttons or service catalog items.
+This is set of WIP Red Hat CloudForms/ManageIQ automatio methods to add disks to VMware VMs & AWS intances via custom buttons or service catalog items.
 
 
 To use: 

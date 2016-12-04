@@ -8,7 +8,7 @@ require 'aws-sdk'
 attributes = $evm.root.attributes
 vmname=attributes['dialog_get_ec2']
 @provider=$evm.vmdb(:ems).find_by_type("ManageIQ::Providers::Amazon::CloudManager")
-vm=$evm.vmdb('vm').find_by_name(vmname)
+vm= $evm.vmdb('vm').find_by_name(vmname) || $evm.root['vm']
 az=vm.availability_zone.ems_ref
 raise "Missing $evm.root['vm'] object" unless vm
 

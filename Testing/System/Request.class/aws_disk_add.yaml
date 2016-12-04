@@ -9,4 +9,4 @@ object:
     description: 
   fields:
   - rel1:
-      value: "/Testing/Integration/Amazon/EC2/ec2_disk_button"
+      value: "/Testing/Integration/Amazon/EC2/ec2_disk_cat"
